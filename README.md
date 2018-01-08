@@ -19,7 +19,6 @@ These are the steps (comments) without actual R commands:
 # Read test tables:
 
 # Read features:
-features <- read.table('features.txt')
 
 # Read activity labels:
 
@@ -33,15 +32,15 @@ features <- read.table('features.txt')
 # combine x and y columns for test and train set
 # combine train and test rows 
 
-#save all column names, in order to validate them later
+# save all column names, in order to validate them later
 
-#look for columnnames with the words "mean" and "std", plus the activity and subject IDs 
+# look for columnnames with the words "mean" and "std", plus the activity and subject IDs 
 
-#Create the new vector
-#use the labels instead of the numbers to identify the different activities
+# Create the new vector
+# use the labels instead of the numbers to identify the different activities
 
-#Aggregate data by subjectID and Activity id, do this by the method of taking the mean
-#Order the new set based on subjectID and afterwards on activityId
+# Aggregate data by subjectID and Activity id, do this by the method of taking the mean
+# Order the new set based on subjectID and afterwards on activityId
 
 
 #Write the newe data set to a .txt file called CleanSet.txt
